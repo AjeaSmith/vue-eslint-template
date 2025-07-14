@@ -11,7 +11,7 @@ export default antfu(
       semi: true,
       quotes: "double",
     },
-    ignores: ["README.md", "**/README.md", "readme.md", "**/readme.md", "dist", "node_modules"],
+    // ignores: ["README.md", "**/README.md", "readme.md", "**/readme.md", "dist", "node_modules"],
   },
   {
     rules: {
@@ -27,13 +27,6 @@ export default antfu(
           tsconfigRootDir: ".",
         },
       ],
-      "unicorn/filename-case": [
-        "error",
-        {
-          case: "kebabCase",
-          ignore: ["README.md"],
-        },
-      ],
     },
-  }
+  },
 );

@@ -4,4 +4,3 @@
 <template>
   hello
 </template>
-
