@@ -15,26 +15,8 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+## Project Setup - Useful Resources
 
-```sh
-npm install
-```
+- [lint-stage with husky](https://www.npmjs.com/package/lint-staged/v/12.3.2)
+- [use antfu eslint config](https://github.com/antfu/eslint-config)
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
