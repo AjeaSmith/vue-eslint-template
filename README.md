@@ -18,5 +18,6 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ## Project Setup - Useful Resources
 
 - [lint-stage with husky](https://www.npmjs.com/package/lint-staged/v/12.3.2)
-- [use antfu eslint config](https://github.com/antfu/eslint-config)
+- [use antfu's eslint config](https://github.com/antfu/eslint-config)
+- [github actions - yml file to run linting b4 pull requests](https://github.com/w3cj/vite-react-lint-example/blob/main/.github/workflows/lint.yaml)
 
